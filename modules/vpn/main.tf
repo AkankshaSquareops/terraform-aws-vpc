@@ -98,7 +98,7 @@ module "vpn_server" {
   root_block_device = [
     {
       encrypted   = true
-      volume_type = "gp2"
+      volume_type = "gp3"
       volume_size = 20
     }
   ]
